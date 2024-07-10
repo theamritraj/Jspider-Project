@@ -1,0 +1,169 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(51, 51, 51);
+
+
+}
+
+section {
+    background-image: url('./images/films/paralex1.png');
+    background-image: url('./images/films/paralex2.png');
+}
+
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    margin-left: 400px;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-top: 90px;
+}
+
+.navbar ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+.navbar ul li a {
+    display: block;
+    margin: 0 auto 5px;
+    font-size: 40px;
+
+}
+
+.navbar ul li a span {
+    display: block;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.navbar ul :hover {
+    color: yellow;
+}
+
+/* marquee */
+.marquee-container {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+}
+
+.marquee-images img {
+    height: 100;
+    /* Adjust as needed */
+    /* Space between images */
+}
+@keyframes marquee {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+/* line between the paragraph */
+.heading-container {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    max-width: 800px;
+    padding: 0 20px;
+    margin-left: 350px;
+    color: white;
+}
+
+.heading-text {
+    margin: 0 10px;
+    white-space: nowrap;
+    font-size: 24px;
+}
+
+.line {
+    flex-grow: 1;
+    height: 1px;
+    background-color: yellow;
+}
+
+/* Upcoming Films Section */
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    /* Space evenly between images */
+    align-items: center;
+    max-width: 1000px;
+    /* Adjust as needed */
+    margin: 0 auto;
+    /* Center container horizontally */
+    margin-top: 50px;
+}
+
+.image-container img {
+    max-width: 50%;
+    /* Set maximum width for each image */
+    height: 100%;
+    /* Maintain aspect ratio */
+    transition: transform 0.3s ease;
+    /* Smooth transition for scaling */
+}
+
+.image-container img:hover {
+    transform: scale(1.1);
+    /* Scale up to 110% on hover */
+    cursor: pointer;
+    /* Change cursor to indicate interaction */
+}
+
+/* Iframe Section */
+
+.iframe-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* Two iframes per row */
+    gap: 20px;
+    /* Gap between iframes */
+    margin: 50px auto;
+    /* Center the container */
+    max-width: 1000px;
+    /* Limit the maximum width */
+}
+
+.iframe-container iframe {
+    width: 100%;
+    /* Ensure iframes fill their grid cells */
+    height: 315px;
+    /* Fixed height for consistency */
+    transition: transform 0.3s ease;
+    /* Smooth transition for zoom effect */
+}
+
+.iframe-container iframe:hover {
+    transform: scale(1.1);
+    /* Scale up to 110% on hover */
+}
+
+.iframe-container span p {
+    color: white;
+}
+
+.content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
