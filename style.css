@@ -21,7 +21,8 @@ section {
     list-style-type: none;
     padding: 0;
     display: flex;
-    margin-left: 400px;
+    justify-content: center; 
+    margin: 0;
 }
 
 .navbar ul li {
