@@ -215,7 +215,7 @@ footer{
 
 .footer-section {
     background-color: #333; 
-    padding: 20px 0; 
+    padding: 10px 0; 
     text-align: center; 
 }
 .footer-section ul {
@@ -226,7 +226,7 @@ footer{
     justify-content: center; 
 }
 .footer-section li {
-    margin: 0 15px; 
+    margin: 0 10px; 
 }
 .footer-section a {
     text-decoration: none; 
@@ -244,11 +244,11 @@ footer{
     display: flex; 
     justify-content: center; 
     align-items: center; 
-    padding: 20px; 
+    padding: 10px; 
     
 }
 .social-icons a {
-    margin: 0 10px; 
+    margin: 0 5px; 
     transition: transform 0.3s; 
 }
 .social-icons img {
@@ -257,4 +257,7 @@ footer{
 }
 .social-icons a:hover {
     transform: scale(1.1); 
+}
+.social-icons span{
+    color: yellow;
 }
