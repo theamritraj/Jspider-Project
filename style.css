@@ -162,8 +162,51 @@ section {
     color: white;
 }
 
+/* Footer container */
+footer{
+    background-color: white;
+    color: white;
+   
+}
+
+.footer-container{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    max-width: 800px;
+    padding: 0 20px;
+    margin-left: 350px;
+    background-color:white;
+    color: black;
+    
+}
+.footer-text{
+    margin: 0 10px;
+    white-space: nowrap;
+    font-size: 24px;
+    background-color: white;
+    color: black;
+    
+}
+.footer-line{
+    flex-grow: 1;
+    height: 1px;
+    background-color: black;
+    color: black;
+}
+
 .content {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
+    background-color:white;
+    color: white;
+}
+.content p{
+    color: black;
+    background-color: white;
+}
+.content b{
+    color: black;
+    background-color: white;
 }
